@@ -1,10 +1,11 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
+  <TheNavbar></TheNavbar>
   <RouterView></RouterView>
 </template>
+
+<script setup lang="ts">
+import TheNavbar from './components/TheNavbar.vue'
+</script>
 
 <style scoped>
 .logo {
