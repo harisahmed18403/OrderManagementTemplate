@@ -11,6 +11,7 @@
         <el-menu-item index="3-1">Action 1</el-menu-item>
         <el-menu-item index="3-2">Action 2</el-menu-item>
     </el-sub-menu>
+    <el-menu-item index="4">Settings</el-menu-item>
     </el-menu>
 </template>
 <script setup lang="ts">
@@ -28,6 +29,9 @@ const handleSelect = (key: string, keyPath: string[]) => {
   }
   else if(key === '2'){
     router.push('/orders');
+  }
+  else if(key === '4'){
+    router.push('/settings');
   }
 }
 </script>
