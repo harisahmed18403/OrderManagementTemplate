@@ -1,0 +1,8 @@
+<template>
+<h1>hello</h1>
+<el-button>Default</el-button>
+</template>
+
+<script setup lang="ts">
+
+</script>
