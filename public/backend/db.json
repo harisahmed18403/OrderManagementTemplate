@@ -1,0 +1,46 @@
+{
+    "orders": {
+        "1": {
+            "id": 1,
+            "userId": 101,
+            "totalAmount": 150.75,
+            "status": "Shipped",
+            "date": "2024-02-16",
+            "items": [1, 2]
+        },
+        "2": {
+            "id": 2,
+            "userId": 102,
+            "totalAmount": 89.99,
+            "status": "Processing",
+            "date": "2024-02-15",
+            "items": [3]
+        }
+    },
+    "orderitems": {
+        "1": {
+            "id": 1,
+            "orderId": 1,
+            "productId": 201,
+            "productName": "Wireless Headphones",
+            "quantity": 1,
+            "price": 99.99
+        },
+        "2": {
+            "id": 2,
+            "orderId": 1,
+            "productId": 202,
+            "productName": "USB-C Charger",
+            "quantity": 1,
+            "price": 50.76
+        },
+        "3": {
+            "id": 3,
+            "orderId": 2,
+            "productId": 203,
+            "productName": "Bluetooth Speaker",
+            "quantity": 1,
+            "price": 89.99
+        }
+    }
+}

@@ -30,6 +30,11 @@ const handleSelect = (key: string, keyPath: string[]) => {
   else if(key === '2'){
     router.push('/orders');
   }
+  else if(key === '3'){
+    if(keyPath[0] === '1'){
+      router.push('/orders');
+    }
+  }
   else if(key === '4'){
     router.push('/settings');
   }

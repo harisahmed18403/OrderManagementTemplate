@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "json-server --watch db.json --port 10000"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
